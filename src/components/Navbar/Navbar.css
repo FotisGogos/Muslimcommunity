@@ -1,0 +1,69 @@
+.signup{
+position: absolute;
+width: 70px;
+height: 23px;
+left: 50px;
+top: 41px;
+font-family: 'Karla', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+color: #2D355C;
+text-decoration: none;
+}
+
+.sahkun{
+position: absolute;
+width: 161px;
+height: 58px;
+left: 640px;
+top: 34px;
+font-family: 'Butler';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+color: #2D355C;
+}
+
+.ourmission{
+position: absolute;
+width: 112px;
+height: 23px;
+left: 1088px;
+top: 41px;
+font-family: 'Karla', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: right;
+color: #2D355C;
+text-decoration: none;
+}
+
+.download{
+box-sizing: border-box;
+position: absolute;
+width: 162px;
+height: 39px;
+left: 1228px;
+top: 32px;
+border: 1px solid #2D355C;
+border-radius: 19.5px;
+cursor: pointer;
+}
+
+.line{
+position: absolute;
+width: 1440px;
+height: 0px;
+left: 0px;
+top: 95.99px;
+border: 1px solid #2D355C;
+}
+
