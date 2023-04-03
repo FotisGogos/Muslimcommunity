@@ -334,3 +334,18 @@ border: 1px solid #ED6563;
   top: 296.17%;
   bottom: 8.33%;
 }
+
+.txt{
+  position: absolute;
+width: 731px;
+height: 111px;
+left: 355px;
+top: 2644px;
+
+font-family: 'Butler';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+}

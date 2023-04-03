@@ -121,6 +121,9 @@ function mainview() {
       </div>
       <button className="cnctus"> Connect with us</button>
       <img src={joinus} alt="waveicon" className="waveicon" />
+      <div className="txt">
+        <p>Sahkun: Where mental health meets community and therapy</p>
+      </div>
     </>
   );
 }
