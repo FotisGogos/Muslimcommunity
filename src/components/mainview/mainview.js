@@ -38,7 +38,7 @@ function mainview() {
           />
           <button className="join" />
           <img src={emailicon} alt="emailicon" className="emailicon" />
-          <p className="waitlist">Join our waitlist</p>{" "}
+          <p className="waitlist">Join our waitlist!</p>{" "}
         </label>
       </form>{" "}
       <div className="mockup1">
@@ -50,21 +50,21 @@ function mainview() {
           alt="illustration3"
           className="illustration3"
         />
-        <p className="illu3text">
-          Deenya is a compassionate chatbot that offers a listening ear for
-          those in need.{" "}
-        </p>
       </div>
+      <p className="illu3text">
+        Deenya is a compassionate chatbot that offers a listening ear for those
+        in need.{" "}
+      </p>
       <div className="illustration1">
         <img src={illustration1} alt="illustration3" />
       </div>
       <div className="illustration4">
         <img src={illustration4} alt="illustration3" />
-        <p className="illutext4">
-          Whether you are struggling with mental health or going through a tough
-          time, Deenya is here to help.{" "}
-        </p>
       </div>
+      <p className="illutext4">
+        Whether you are struggling with mental health or going through a tough
+        time, Deenya is here to help.{" "}
+      </p>
       <div className="illu5">
         <img
           src={illustration5}
