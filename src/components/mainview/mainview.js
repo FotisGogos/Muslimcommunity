@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+{
+  /*import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./mainview.css";
 import emailicon from "./emailicon.png";
@@ -128,4 +129,5 @@ function mainview() {
   );
 }
 
-export default mainview;
+export default mainview*/
+}

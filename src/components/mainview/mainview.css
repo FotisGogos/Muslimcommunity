@@ -183,7 +183,8 @@ left: 220%;
 }
 
 .signuptext{
-
+position: absolute;
+top: 50%;
 }
 
 .illustration7{
@@ -215,5 +216,6 @@ top: 220%;
 }
 
 .txt{
+position: absolute;
 
 }

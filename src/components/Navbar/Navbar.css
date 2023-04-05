@@ -1,14 +1,14 @@
+
 .signup{
 position: absolute;
-width: 17%;
+width: 26%;
 left: 8%;
 top: 5%;
 font-family: 'Karla', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 130%;
-text-align: right;
+font-size: 17px;
 color: #2D355C;
 text-decoration: none;
 cursor: pointer;
@@ -16,25 +16,25 @@ cursor: pointer;
 
 .sahkun{
 position: absolute;
-left: 166%;
-top: 5%;
+left: 171%;
+top: 4%;
 font-family: 'Butler';
 font-style: normal;
 font-weight: 700;
-font-size: 300%;
+font-size: 345%;
 color: #2D355C;
 cursor: pointer;
 }
 
 .ourmission{
 position: absolute;
-width: 28%;
-left: 280%;
+width: 43%;
+left: 277%;
 top: 5%;
 font-family: 'Karla', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
-font-weight: 700;
-font-size: 22px;
+font-weight: 100;
+font-size: 36px;
 line-height: 23px;
 text-align: right;
 color: #2D355C;
@@ -43,23 +43,28 @@ cursor: pointer;
 }
 
 .download{
+background-color: #FBFEF9;
 box-sizing: border-box;
 position: absolute;
-width: 35%;
-height: 4%;
-left: 315%;
+width: 41%;
+height: 5%;
+left: 337%;
 top: 4%;
 border: 1px solid #2D355C;
 border-radius: 19.5px;
 cursor: pointer;
+font-family: 'Karla', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 200;
+font-size: 24px;
+color: #2D355C;
 }
 
 .line{
 position: absolute;
-width: 375%;
+width: 401%;
 height: 0px;
 left: 0px;
 top: 11.99%;
 border: 1px solid #2D355C;
 }
-
