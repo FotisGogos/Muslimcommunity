@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
-/*import Mainview from "./components/mainview/mainview";*/
+import Mainview from "./components/mainview/mainview";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
       <Router>
         <Navbar />
-        {/*<Mainview />*/}
+        <Mainview />
         <Routes>
           <Route path="/" />
         </Routes>

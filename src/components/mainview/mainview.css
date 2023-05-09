@@ -1,221 +1,285 @@
-.centertxt{
+.centertxt {
+  display: flex;
+  justify-content: center;
   position: absolute;
-width: 147%;
-height: 116px;
-left: 113%;
-top: 24%;
+  width: 80%;
+  max-width: 560px;
+  height: auto;
+  left: 62%;
+  top: 12%;
+  transform: translateX(-50%);
+  font-family: 'Butler';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #2D355C;
+}
+.textbelow {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 80%;
+  max-width: 543px;
+  height: auto;
+  left: 62%;
+  top: 55%;
+  transform: translateX(-50%);
+  font-family: 'Karla', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #485592;
+}
+.emailinput {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  position: absolute;
+  width: 80%;
+  max-width: 400px;
+  height: 62px;
+  left: 62%;
+  top: 75%;
+  transform: translateX(-50%);
+  border: 1px solid #B5B5B5;
+  border-radius: 67px;
+}
+.join {
+  box-sizing: border-box;
+  position: absolute;
+  width: 50%;
+  max-width: 247px;
+  height: 9%;
+  left: 62%;
+  top: 87%;
+  transform: translateX(-50%);
+  background: #ED6563;
+  border: 1px solid #ED6563;
+  border-radius: 67px;
+}
+.emailicon {
+  display: none;
+}
+.waitlist {
+  box-sizing: border-box;
+  position: absolute;
+  width: 160px;
+  height: 23px;
+  left: 62%;
+  top: 87%;
+  transform: translateX(-50%);
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.iphonemockup1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 44px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 800px;
+  height: 659px;
+  width: 89%;
+  
+}
+
+.illustration3 {
+ display: none;
+}
+.illu3text {
+  display: none;
+}
+.illustration1 {
+  display: none;
+}
+.illustration4 {
+  display: none;
+}
+.illutext4 {
+  display: none;
+}
+.illustration5 {
+  display: none;
+}
+.illutext5 {
+  display: none;
+}
+.illustration6 {
+  display: none;
+}
+.illutext6 {
+  display: none;
+}
+.illu2 {
+  display: none;
+}
+.textcenter {
+display: flex;
+justify-content: center;
 font-family: 'Butler';
 font-style: normal;
-font-weight: 900;
-font-size: 334%;
+font-weight: 500;
+font-size: 21px;
+line-height: 31px;
+text-align: center;
+position: relative;
+top: 804px;
+width: 353px;
+height: auto;
+color: #2D355C;
+}
+.signupbtn{
+  display: none;
+}
+.signuptext{
+  display: none;
+}
+.illustration7{
+display: flex;
+justify-content: center;
+height: 399px;
+position: relative;
+left: 37.9px;
+top: 889.5px;
+background: #FCEBBC;
+z-index: -1;
+
+  
+}
+.phonemockup2{
+display: flex;
+position: relative;
+justify-content: center;
+left: 65px;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+top: 862px;
+height: 459px;
+width: 29px;
+
+}
+.textmainsahkun{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-family: 'Butler';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  top: 29px;
+  left: 20px;
+  color: #2D355C;
+}
+.textmainsm{
+justify-content: center;
+position: relative;
+top: 27px;
+line-height: 20px;
+font-size: 17px;
+left: 46px;
+color: #2D355C;
+}
+.cnctus{
+ display: flex;
+ justify-content: center;
+position: relative;
+left: 65.26px;
+top: 36.73px;
+background: #ED6563;
+font-family: 'Karla', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 700;
+font-size: 20px;
+border-radius: 67px;
+width: 231px;
+height: 37px;
+color: #FBFEF9;
+border: 1px solid #ED6563;
+}
+.waveicon{
+display: flex;
+justify-content: center;
+position: relative;
+left: 77px;
+top: 6px;
+}
+
+.txt{
+display: flex;
+justify-content: center;
+position: relative;
+top: 520px;
+left: 50px;
+font-family: 'Butler';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
 line-height: 58px;
 text-align: center;
 color: #2D355C;
 }
 
-.textbelow{
-position: absolute;
-width: 132%;
-left: 116%;
-top: 41%;
-font-family: 'Karla', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
+.icon-container {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+.icon-container {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+width: 62px;
+height: 62px;
+display: flex;
+justify-content: center;
+position: relative;
+top: 520px;
+margin: 10px;
+left: 40px;
+}
+
+.sympathytxt,
+.positivetxt,
+.mindfulnesstxt,
+.islamicnewyeartxt,
+.friendshiptxt{
+display: flex;
+justify-content: center;
+position: relative;
+top: 489px;
+left: 34px;
+color: #2D355C;
+font-family: 'Karla';
 font-style: normal;
-font-weight: 800;
+font-weight: 700;
 font-size: 24px;
-line-height: 28px;
+line-height: 21px;
 text-align: center;
-color: #485592;
-/* Connect with like-minded Muslims committed to prioritizing mental health wellness. */
+text-transform: uppercase;
+margin: 37px;
 }
 
-.emailinput{
-
-box-sizing: border-box;
-position: absolute;
-width: 100%;
-height: 7%;
-left: 111%;
-top: 56%;
-border: 1px solid #B5B5B5;
-border-radius: 67px;
-background: #FBFEF9;
-}
-
-.join{
-box-sizing: border-box;
-position: absolute;
-width: 72%;
-height: 7.2%;
-left: 749px;
-top: 55.9%;
-
-/* Main */
-
-background: #ED6563;
-/* Main */
-
-border: 1px solid #ED6563;
-border-radius: 67px;
-}
-
-.emailicon{
-position: absolute;
-width: 6%;
-height: 2%;
-left: 198.63%;
-right: 35.33%;
-top: 58.33%;
-bottom: 16.67%;
-}
-
-.waitlist{
-box-sizing: border-box;
-position: absolute;
-width: 47%;
-left: 208%;
-top: 54%;
-font-family: 'Karla', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 35px;
-text-align: center;
-color: #FFFFFF;
-
-}
-
-.iphonemockup1{
-position: absolute;
-left: 123.42%;
-top: 72.91%;
-}
-
-.illustration3{
-  z-index: -1;
-  position: absolute;
-  left: 20.32%;
-  right: 55.07%;
-  top: 69.1%;
-  bottom: 86.62%;
-}
-
-.illu3text{
-color: #ffff;
-position: absolute;
-width: 72%;
-bottom: 4%;
-left: 38%;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-font-family: 'Karla', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-}
-
-.illustration1{
-position: absolute;
-left: -4%;
-right: 68.05%;
-top: 29.55%;
-bottom: 71.54%;
-z-index: -1;
-}
-
-.illustration4{
-position: absolute;
-left: 20.68%;
-right: 60.04%;
-top: 104.41%;
-bottom: 82.32%;
-z-index: -1;
-}
-
-.illutext4{
-position: absolute;
-top: 114%;
-width: 71%;
-left: 35%;
-font-family: 'Karla', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-font-weight: 700;
-line-height: 28px;
-font-size: 24px;
-color: #FFFFFF;
-}
-
-.illustration5{
-position: absolute;
-left: 237%;
-top: 76%;
-z-index: -1;
-}
-
-.illutext5{
-font-family: 'Karla', sans-serif;
-font-family: 'Source Sans Pro', sans-serif; 
-}
-
-.illustration6{
-position: absolute;
-left: 235%;
-top: 126%;
-z-index: -1;
-
-}
-
-.illutext6{
-
-}
-
-.illu2{
-  position: absolute;
-left: 220%;
-
-}
-
-.textcenter{
- 
-}
-
-.signupbtn{
-
-}
-
-.signuptext{
-position: absolute;
-top: 50%;
-}
-
-.illustration7{
-  position: absolute;
-left: 220%;
-top: 220%;
-
-}
-
-.phonemockup2{
-  position: absolute;
-  left: 220%;
-  top: 220%
-  ;
-}
-.textmainsahkun{
-
-}
-
-.textmainsm{
-
-}
-
-.cnctus{
-
-}
-.waveicon{
-
-}
-
-.txt{
-position: absolute;
-
-}

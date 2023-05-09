@@ -1,7 +1,7 @@
-{
-  /*import React, { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./mainview.css";
+
 import emailicon from "./emailicon.png";
 import iphonemockup1 from "../images/phone mockups/Phone mockup 1.png";
 import illustration3 from "../images/illustration shapes/Illustartion 3.png";
@@ -12,6 +12,11 @@ import illustration6 from "../images/illustration shapes/Illustartion 6.png";
 import illustration2 from "../images/illustration shapes/Illustration 2.png";
 import illustration7 from "../images/illustration shapes/Illustartion 7.png";
 import phonemockup2 from "../images/phone mockups/Phone mockup 2.png";
+import friendship from "../images/icons/friendship.png";
+import islamicnewyear from "../images/icons/islamic-new-year.png";
+import mindfulness from "../images/icons/mindfulness.png";
+import positive from "../images/icons/positive-thinking.png";
+import sympathy from "../images/icons/sympathy.png";
 import joinus from "../images/icons/connect with us.png";
 
 function mainview() {
@@ -36,6 +41,7 @@ function mainview() {
             value={text}
             onChange={handleInputChange}
             className="emailinput"
+            placeholder="Email"
           />
           <button className="join" />
           <img src={emailicon} alt="emailicon" className="emailicon" />
@@ -125,9 +131,22 @@ function mainview() {
       <div className="txt">
         <p>Sahkun: Where mental health meets community and therapy</p>
       </div>
+      <div className="icon-container">
+        <img src={sympathy} alt="Icon 5" className="icon5" />
+        <p className="sympathytxt">Connect with Certified Therapists</p>
+        <img src={positive} alt="Icon 4" className="icon4" />
+        <p className="positivetxt">Join a Supportive Community</p>
+        <img src={mindfulness} alt="Icon 3" className="icon3" />
+        <p className="mindfulnesstxt">Find support through mentorship</p>
+        <img src={islamicnewyear} alt="Icon 2" className="icon2" />
+        <p className="islamicnewyeartxt">
+          Receive guidance through islamic spirituality
+        </p>
+        <img src={friendship} alt="Icon 1" className="icon1" />
+        <p className="friendshiptxt">Strengthen Your Mental Resilience</p>
+      </div>
     </>
   );
 }
 
-export default mainview*/
-}
+export default mainview;
