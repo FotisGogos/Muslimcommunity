@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/Muslimcommunity/static/css/main.49b4063a.css",
-    "main.js": "/Muslimcommunity/static/js/main.3e0462ee.js",
+    "main.css": "/Muslimcommunity/static/css/main.03d24d45.css",
+    "main.js": "/Muslimcommunity/static/js/main.8178d77b.js",
+    "static/media/Phone mockup 1.png": "/Muslimcommunity/static/media/Phone mockup 1.5c0001e0a21a7a547ba6.png",
+    "static/media/Phone mockup 2.png": "/Muslimcommunity/static/media/Phone mockup 2.274d66f8cc53fd0d7793.png",
+    "static/media/Illustration 1.png": "/Muslimcommunity/static/media/Illustration 1.d7c704d12cd982570f4c.png",
+    "static/media/Illustration 2.png": "/Muslimcommunity/static/media/Illustration 2.0552fca9cbb502ccb766.png",
+    "static/media/sympathy.png": "/Muslimcommunity/static/media/sympathy.872f88dc641b67b1d57f.png",
+    "static/media/islamic-new-year.png": "/Muslimcommunity/static/media/islamic-new-year.2d2158a0274cb1f4ee38.png",
+    "static/media/mindfulness.png": "/Muslimcommunity/static/media/mindfulness.0fd5af4027f3a639c9be.png",
+    "static/media/friendship.png": "/Muslimcommunity/static/media/friendship.43cc6be9dd9cbd199ce4.png",
+    "static/media/positive-thinking.png": "/Muslimcommunity/static/media/positive-thinking.83d7932620d9255357f6.png",
+    "static/media/Illustartion 7.png": "/Muslimcommunity/static/media/Illustartion 7.38666bfe1b2c8e2beecf.png",
     "index.html": "/Muslimcommunity/index.html",
-    "main.49b4063a.css.map": "/Muslimcommunity/static/css/main.49b4063a.css.map",
-    "main.3e0462ee.js.map": "/Muslimcommunity/static/js/main.3e0462ee.js.map"
+    "main.03d24d45.css.map": "/Muslimcommunity/static/css/main.03d24d45.css.map",
+    "main.8178d77b.js.map": "/Muslimcommunity/static/js/main.8178d77b.js.map"
   },
   "entrypoints": [
-    "static/css/main.49b4063a.css",
-    "static/js/main.3e0462ee.js"
+    "static/css/main.03d24d45.css",
+    "static/js/main.8178d77b.js"
   ]
 }
