@@ -177,14 +177,13 @@ width: 29px;
   display: flex;
   justify-content: center;
   position: relative;
-  font-family: 'Butler';
+  font-family: Butler;
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 31px;
+  left: 5rem;
+  line-height: 28px;
   top: 29px;
-  left: 20px;
-  color: #2D355C;
 }
 .textmainsm{
 justify-content: center;
