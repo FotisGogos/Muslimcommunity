@@ -88,12 +88,14 @@
 
 .sahkun {
   font-family: 'Butler';
-  font-weight: 700;
-  font-size: 2rem;
-  text-decoration: none;
-  position: relative;
-  left: 106px;
-  color: #2D355C;
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: none;
+    position: relative;
+    left: 189%;
+    color: #2D355C;
+    display: flex;
+    justify-content: center;
 }
 
 .download {
