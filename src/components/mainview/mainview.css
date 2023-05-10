@@ -149,16 +149,16 @@
   display: none;
 }
 .illustration7{
-display: flex;
-justify-content: center;
-height: 399px;
-position: relative;
-left: 37.9px;
-top: 889.5px;
-background: #FCEBBC;
-z-index: -1;
+  display: flex;
+  justify-content: center;
+  height: 23rem;
+  position: relative;
+  right: 16rem;
+  top: 55rem;
+  background: #FCEBBC;
+  z-index: -1;
+  width: 227%;
 
-  
 }
 .phonemockup2{
 display: flex;
