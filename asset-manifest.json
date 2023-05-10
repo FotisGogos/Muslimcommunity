@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Muslimcommunity/static/css/main.03d24d45.css",
+    "main.css": "/Muslimcommunity/static/css/main.2bef8545.css",
     "main.js": "/Muslimcommunity/static/js/main.8178d77b.js",
     "static/media/Phone mockup 1.png": "/Muslimcommunity/static/media/Phone mockup 1.5c0001e0a21a7a547ba6.png",
     "static/media/Phone mockup 2.png": "/Muslimcommunity/static/media/Phone mockup 2.274d66f8cc53fd0d7793.png",
@@ -13,11 +13,11 @@
     "static/media/positive-thinking.png": "/Muslimcommunity/static/media/positive-thinking.83d7932620d9255357f6.png",
     "static/media/Illustartion 7.png": "/Muslimcommunity/static/media/Illustartion 7.38666bfe1b2c8e2beecf.png",
     "index.html": "/Muslimcommunity/index.html",
-    "main.03d24d45.css.map": "/Muslimcommunity/static/css/main.03d24d45.css.map",
+    "main.2bef8545.css.map": "/Muslimcommunity/static/css/main.2bef8545.css.map",
     "main.8178d77b.js.map": "/Muslimcommunity/static/js/main.8178d77b.js.map"
   },
   "entrypoints": [
-    "static/css/main.03d24d45.css",
+    "static/css/main.2bef8545.css",
     "static/js/main.8178d77b.js"
   ]
 }
