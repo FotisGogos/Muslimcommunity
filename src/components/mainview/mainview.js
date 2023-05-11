@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./mainview.css";
 
-import emailicon from "./emailicon.png";
 import iphonemockup1 from "../images/phone mockups/Phone mockup 1.png";
 import illustration3 from "../images/illustration shapes/Illustartion 3.png";
 import illustration1 from "../images/illustration shapes/Illustration 1.png";
@@ -28,14 +27,15 @@ function mainview() {
 
   return (
     <>
-      <div className="container"></div>
-      <h1 className="centertxt">The First AI Driven Muslim Community App</h1>
-      <p className="textbelow">
-        Connect with like-minded Muslims committed to prioritizing mental health
-        wellness
-      </p>
-      <form>
-        <label>
+      <div className="container">
+        <h1 className="centertxt">The First AI Driven Muslim Community App</h1>
+        <div>
+          <p className="textbelow">
+            Connect with like-minded Muslims committed to prioritizing mental
+            health wellness
+          </p>
+        </div>
+        <div className="input-button-wrapper">
           <input
             type="text"
             value={text}
@@ -43,14 +43,10 @@ function mainview() {
             className="emailinput"
             placeholder="Email"
           />
-          <button className="join" />
-          <img src={emailicon} alt="emailicon" className="emailicon" />
-          <p className="waitlist">Join our waitlist!</p>{" "}
-        </label>
-      </form>{" "}
-      <div className="mockup1">
-        <img src={iphonemockup1} alt="mockup1" className="iphonemockup1" />
+          <button className="join">Join our waitlist!</button>
+        </div>
       </div>
+      <img src={iphonemockup1} alt="mockup1" className="iphonemockup1" />
       <div className="illustration3">
         <img
           src={illustration3}

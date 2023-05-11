@@ -1,171 +1,67 @@
-/* Mobile-first styles */
-.navbar {
-  background-color: #FBFEF9;
-  padding: 10px 20px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.navbar-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.dropdown-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  background-color: #FCFEF9;
-  padding: 20px;
-  border-radius: 8px;
-  
-  position: absolute;
-  
-  left: 0;
-  z-index: 10;
-}
-
-/* Hamburger icon styles */
-.hamburger {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 24px;
-  height: 16px;
-  cursor: pointer;
-}
-
-.bar {
-  height: 3px;
-  background-color: #2D355C;
-}
-
-/* "X" icon styles */
-.x-icon {
-  position: relative;
-}
-
-.x-bar1,
-.x-bar2 {
-  width: 24px;
-  height: 3px;
-  background-color: #2D355C;
-  position: absolute;
-  left: 0;
-  right: 0;
-}
-
-.x-bar1 {
-  transform: rotate(45deg);
-  top: 50%;
-  margin-top: -1.5px;
-}
-
-.x-bar2 {
-  transform: rotate(-45deg);
-  top: 50%;
-  margin-top: -1.5px;
-}
-
-.signup,
-.ourmission
-.download {
-  font-family: 'Karla', sans-serif, 'Source Sans Pro', sans-serif;
-  font-weight: 400;
-  color: #2D355C;
-  text-decoration: none;
-  cursor: pointer;
-  margin: 5px 10px; /* Adjust the margin for smaller screens */
-}
-.ourmission{
-
-}
 
 .sahkun {
+  bottom: 1.2rem;
   font-family: 'Butler';
-    font-weight: 700;
-    font-size: 2rem;
-    text-decoration: none;
-    position: relative;
-    left: 189%;
-    color: #2D355C;
-    display: flex;
-    justify-content: center;
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none ;
+  position: relative;
+  color: #2D355C;
+  display: flex;
+  justify-content: center;
 }
 
-.download {
-  background-color: #FBFEF9;
-  box-sizing: border-box;
+.signup{
+  display: flex;
+  position: relative;
+  top: 3rem;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 16px;
+  text-align: right;
+  color: #2D355C;
+  text-decoration: none;
+  padding-left: 55px;
+}
+.ourmission{
+  display: flex;
+  justify-content: end;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 0px;
+  text-align: right;
+  color: #2D355C;
+  text-decoration: none;
+  position: relative;
+  right: 14%;
+  bottom: 6rem;
+}
+
+.download{
+  margin-top: 0%;
+  position: relative;
+  left: 89%;
+  bottom: 7.1rem;
   border: 1px solid #2D355C;
   border-radius: 19.5px;
-  font-weight: 200;
-  font-size: 1rem;
-  padding: 5px 10px;
+  color: #2D355C;
+  background-color: #FCFEF9;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  width: 162px;
+  height: 39px;
+}
+.line{
   position: relative;
-  top: 10px;
+  margin-bottom: 2%;
+  bottom: 6rem;
+  /* background: #2D355C; */
+  color: #2D355C;
 }
-
-.line {
-  display: none;
-}
-
-/* Tablet and larger screens */
-@media (min-width: 768px) {
-  .signup,
-  .sahkun,
-  .ourmission,
-  .download {
-    margin: 5px 20px; /* Increase the horizontal margin */
-  }
-
-  .signup {
-    font-size: 1.5rem;
-  }
-
-  .ourmission {
-    font-weight: 100;
-    font-size: 1.5rem;
-    text-align: right;
-  }
-
-  .download {
-    font-size: 1.5rem;
-  }
-}
-
-/* Small desktop and larger screens */
-@media (min-width: 1024px) {
-  .signup {
-    font-size: 2rem;
-  }
-
-  .ourmission {
-    font-size: 2rem;
-  }
-
-  .download {
-    font-size: 1.5rem;
-  }
-
-  .line {
-    margin-top: 10px;
-    border: 1px solid #2D355C;
-  }
-}
-
-/* Large desktop and larger screens */
-@media (min-width: 1200px) {
-  .navbar-container {
-    max-width: 1200px;
-  }
-
-  .sahkun {
-    font-size: 3rem;
-  }
-}
-

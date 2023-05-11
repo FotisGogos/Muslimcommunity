@@ -1,286 +1,78 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .centertxt {
-  display: flex;
-    justify-content: center;
-    position: absolute;
-    width: 80%;
-    max-width: 560px;
-    height: auto;
-    left: 85%;
-    top: 12%;
-    transform: translateX(-50%);
-    font-family: 'Butler';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 58px;
-    text-align: center;
-    color: #2D355C;
+  width: 29%;
+  max-width: 80%;
+  font-family: 'Butler';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.25rem;
+  line-height: 1.2;
+  text-align: center;
+  color: #2D355C;
+  margin: 0rem 0;
 }
-.textbelow {
-  display: flex;
-    justify-content: center;
-    position: absolute;
-    width: 80%;
-    max-width: 543px;
-    height: auto;
-    left: 85%;
-    top: 55%;
-    transform: translateX(-50%);
-    font-family: 'Karla', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    color: #485592;
-}
-.emailinput {
-  display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    position: absolute;
-    width: 80%;
-    max-width: 400px;
-    height: 62px;
-    left: 85%;
-    top: 75%;
-    transform: translateX(-50%);
-    border: 1px solid #B5B5B5;
-    border-radius: 67px;
-}
-.join {
-  box-sizing: border-box;
-  position: absolute;
-  width: 63%;
-  max-width: 247px;
-  height: 7%;
-  left: 85%;
-  top: 87%;
-  transform: translateX(-50%);
-  background: #ED6563;
-  border: 1px solid #ED6563;
-  border-radius: 67px;
-}
-.emailicon {
-  display: none;
-}
-.waitlist {
-  box-sizing: border-box;
-    position: absolute;
-    width: 160px;
-    height: 23px;
-    left: 85%;
-    top: 87%;
-    transform: translateX(-50%);
+.textbelow{
+  max-width: 80%;
     font-family: 'Karla';
     font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.2;
     text-align: center;
-    color: #FFFFFF;
-
+    color: #485592;
+    margin: 1rem 0;
+    width: 92%;
+    padding-left: 20%;
 }
-.iphonemockup1 {
+
+.input-button-wrapper {
   display: flex;
-    justify-content: center;
-    position: relative;
-    left: 108px;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    top: 800px;
-    height: 659px;
-    width: 89%;
+  justify-content: space-between;
+  align-items: flex-end; 
+  width: 100%;
+  max-width: 800px; /* adjust to your needs */
   
 }
 
-.illustration3 {
- display: none;
-}
-.illu3text {
-  display: none;
-}
-.illustration1 {
-  display: none;
-}
-.illustration4 {
-  display: none;
-}
-.illutext4 {
-  display: none;
-}
-.illustration5 {
-  display: none;
-}
-.illutext5 {
-  display: none;
-}
-.illustration6 {
-  display: none;
-}
-.illutext6 {
-  display: none;
-}
-.illu2 {
-  display: none;
-}
-.textcenter {
-  display: flex;
-  justify-content: center;
-  font-family: 'Butler';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 29px;
-  line-height: 31px;
-  text-align: center;
-  position: relative;
-  top: 52rem;
-  width: 112%;
-  height: auto;
-  color: #2D355C;
-  left: 30%;
-}
-.signupbtn{
-  display: none;
-}
-.signuptext{
-  display: none;
-}
-.illustration7{
-  display: flex;
-  justify-content: center;
-  height: 23rem;
-  position: relative;
-  right: 16rem;
-  top: 55rem;
-  background: #FCEBBC;
-  z-index: -1;
-  width: 227%;
-
-}
-.phonemockup2{
-display: flex;
-position: relative;
-justify-content: center;
-left: 65px;
-right: 0;
-margin-left: auto;
-margin-right: auto;
-top: 862px;
-height: 459px;
-width: 29px;
-
-}
-.textmainsahkun{
-  display: flex;
-  justify-content: center;
-  position: relative;
-  font-family: Butler;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  left: 5rem;
-  line-height: 28px;
-  top: 29px;
-}
-.textmainsm{
-justify-content: center;
-position: relative;
-top: 27px;
-line-height: 20px;
-font-size: 17px;
-left: 46px;
-color: #2D355C;
-}
-.cnctus{
- display: flex;
- justify-content: center;
-position: relative;
-left: 65.26px;
-top: 36.73px;
-background: #ED6563;
-font-family: 'Karla', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-font-weight: 700;
-font-size: 20px;
-border-radius: 67px;
-width: 231px;
-height: 37px;
-color: #FBFEF9;
-border: 1px solid #ED6563;
-}
-.waveicon{
-display: flex;
-justify-content: center;
-position: relative;
-left: 77px;
-top: 6px;
+.emailinput{
+  width: 100%;
+    max-width: 400px;
+    height: 62px;
+    border: 1px solid #B5B5B5;
+    border-radius: 67px;
+    margin-top: 1em;
+    padding: 0 1em;
+    flex: 1 1;
+    margin-right: 1em;
+    position: relative;
+    left: 11%; 
+    background-color: #FCFEF9;
 }
 
-.txt{
-display: flex;
-justify-content: center;
-position: relative;
-top: 520px;
-left: 50px;
-font-family: 'Butler';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 58px;
-text-align: center;
-color: #2D355C;
+.join {
+  width: 267px;
+    height: 63px;
+    background: #ED6563;
+    border: 1px solid #ED6563;
+    border-radius: 67px;
+    align-self: center;
+    margin-top: -10px;
+    position: relative;
+    right: 4%;
+    top: 0.7rem;
+    color: #FFFF
 }
 
-.icon-container {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
+.iphonemockup1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%; /* Adjust as needed */
+  margin-top: 12%; /* Adjust as needed */
 }
-
-.icon-container {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-}
-
-.icon1,
-.icon2,
-.icon3,
-.icon4,
-.icon5 {
-width: 62px;
-height: 62px;
-display: flex;
-justify-content: center;
-position: relative;
-top: 520px;
-margin: 10px;
-left: 40px;
-}
-
-.sympathytxt,
-.positivetxt,
-.mindfulnesstxt,
-.islamicnewyeartxt,
-.friendshiptxt{
-display: flex;
-justify-content: center;
-position: relative;
-top: 489px;
-left: 34px;
-color: #2D355C;
-font-family: 'Karla';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 21px;
-text-align: center;
-text-transform: uppercase;
-margin: 37px;
-}
-
